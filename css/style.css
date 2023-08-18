@@ -1,0 +1,116 @@
+header {
+  height: 100vh;
+}
+.overlay {
+  background-color: rgba(255, 0, 0, 0.5);
+  height: 100vh;
+}
+h1 {
+  font-size: 75px;
+}
+ul li {
+  font-size: 30px;
+  font-weight: bold;
+}
+p {
+  font-size: 24px;
+}
+nav {
+  width: 20%;
+  position: fixed;
+  display: none;
+}
+.toggle {
+  cursor: pointer;
+  font-size: 32px;
+  margin-left: 1%;
+}
+@media (max-width: 991px) {
+  nav {
+    width: 35%;
+  }
+  .toggle {
+    margin-left: 0%;
+  }
+}
+.fa-xmark {
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: -40px;
+  margin-top: 8px;
+}
+nav ul li {
+  cursor: pointer;
+}
+.section_two {
+  width: 50%;
+  margin: 200px auto;
+}
+.toto {
+  background-color: lightcoral;
+}
+.section_two h2 {
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 25px;
+  margin: 0px !important;
+}
+.section_two p {
+  background-color: #ccc;
+  padding: 20px;
+  line-height: 32px;
+  font-size: 16px;
+  margin: 0px !important;
+}
+.section_two p {
+  display: none;
+}
+.section_three {
+  background-image: url("../images/invitation-2508607__340.jpg");
+  height: 300px;
+  background-position: center center;
+  background-size: cover;
+}
+.over {
+  background-color: rgba(255, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  font-size: 36px;
+  font-weight: bold;
+}
+.over span {
+  border: 1px solid #fff;
+  width: 220px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact p {
+  font-size: 18px;
+}
+.icons span {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #6c757d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.icons span:hover {
+  background-color: RGB(214, 46, 51);
+  color: #fff !important;
+  border: none;
+}
+.remaining span {
+  color: RGB(214, 46, 51);
+}
+.send {
+  background-color: RGB(214, 46, 51) !important;
+  color: #fff !important;
+  padding: 10px !important;
+}
